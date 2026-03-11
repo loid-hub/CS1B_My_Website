@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Activities</title>
+
+<style>
+
+body{
+background-color:lightgreen;
+font-family:Arial;
+text-align:center;
+margin:0;
+}
+
+.container{
+width:80%;
+margin:40px auto;
+background-color:green;
+padding:30px;
+border-radius:20px;
+}
+
+h1{
+color:white;
+}
+
+.activity-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+margin-top:30px;
+}
+
+.activity-card{
+background-color:#2e8b57;
+padding:15px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.activity-card:hover{
+transform:scale(1.05);
+background-color:#3cb371;
+}
+
+.activity-card img{
+width:100%;
+border-radius:10px;
+}
+
+.activity-title{
+margin-top:10px;
+color:white;
+font-weight:bold;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:35px;
+padding:10px 25px;
+background-color:white;
+color:green;
+text-decoration:none;
+border-radius:20px;
+font-weight:bold;
+}
+
+.back-btn:hover{
+background-color:#e6ffe6;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>My Activities</h1>
+
+<div class="activity-grid">
+
+<div class="activity-card">
+<a href="activity1.html">
+<img src="activity1.jpg">
+</a>
+<div class="activity-title">Activity 1</div>
+</div>
+
+<div class="activity-card">
+<a href="activity2.html">
+<img src="activity2.jpg">
+</a>
+<div class="activity-title">Activity 2</div>
+</div>
+
+<div class="activity-card">
+<a href="activity3.html">
+<img src="activity3.jpg">
+</a>
+<div class="activity-title">Activity 3</div>
+</div>
+
+<div class="activity-card">
+<a href="activity4.html">
+<img src="activity4.jpg">
+</a>
+<div class="activity-title">Activity 4</div>
+</div>
+
+<div class="activity-card">
+<a href="activity5.html">
+<img src="activity5.jpg">
+</a>
+<div class="activity-title">Activity 5</div>
+</div>
+
+<div class="activity-card">
+<a href="activity6.html">
+<img src="activity6.jpg">
+</a>
+<div class="activity-title">Activity 6</div>
+</div>
+
+</div>
+
+<a href="index.html" class="back-btn">Back</a>
+
+</div>
+
+</body>
+</html>
